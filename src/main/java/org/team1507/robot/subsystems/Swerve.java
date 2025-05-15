@@ -34,7 +34,6 @@ import org.team1507.lib.util.Tunable.TunableDouble;
 import org.team1507.lib.util.command.GRRSubsystem;
 import org.team1507.robot.Constants;
 import org.team1507.robot.Constants.LowerCAN;
-import org.team1507.robot.Constants.RioCAN;
 import org.team1507.robot.util.Field;
 import org.team1507.robot.util.Vision;
 import org.team1507.robot.util.Field.ReefLocation;
