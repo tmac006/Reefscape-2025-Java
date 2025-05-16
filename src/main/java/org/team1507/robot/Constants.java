@@ -63,24 +63,10 @@ public final class Constants {
 
     public static final class RioCAN {
 
-        // Swerve
-        public static final int CANANDGYRO = 14;
-
-        // Goose
-        public static final int GOOSE_NECK = 30;
-        public static final int GOOSE_BEAK = 31;
-        public static final int GOOSE_CANDI = 32;
-
-        // Intake
-        public static final int INTAKE_MOTOR = 40;
-        public static final int INTAKE_CANRANGE = 41;
+ 
+        public static final int CLAW_MOTOR = 31;
 
         // Climber
         public static final int CLIMBER_MOTOR = 50;
-    }
-
-    public static final class RioIO {
-
-        public static final int LIGHTS = 9;
     }
 }
