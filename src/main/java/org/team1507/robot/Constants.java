@@ -65,6 +65,7 @@ public final class Constants {
 
  
         public static final int CLAW_MOTOR = 31;
+        public static final int CLAW_BEAM_BREAK = 0;
 
         // Climber
         public static final int CLIMBER_MOTOR = 50;

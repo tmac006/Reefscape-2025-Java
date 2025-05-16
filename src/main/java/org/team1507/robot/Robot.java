@@ -68,8 +68,7 @@ public final class Robot extends TimedRobot {
         swerve.setDefaultCommand(swerve.drive(this::driverX, this::driverY, this::driverAngular));
 
         // Driver bindings
-        driver.x().onTrue(none()); // Reserved (No goosing around)
-        driver.y().onTrue(none()); // Reserved (Force goose spit)
+
 
         driver.leftStick().whileTrue(swerve.turboSpin(this::driverX, this::driverY, this::driverAngular));
       
