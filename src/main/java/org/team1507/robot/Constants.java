@@ -18,6 +18,8 @@ public final class Constants {
     public static final int DRIVER = 0;
     public static final int CO_DRIVER = 1;
 
+
+    //Put cameras back on, put limelight on running photon vision if we want 3 (would be cool)
     public static final CameraConfig[] CAMERAS = {
         new CameraConfig(
             "middle",
@@ -57,8 +59,6 @@ public final class Constants {
 
         // Elevator
         public static final int ELEVATOR_LEAD = 20;
-        public static final int ELEVATOR_FOLLOW = 21;
-        public static final int ELEVATOR_CANDI = 22;
     }
 
     public static final class RioCAN {
@@ -69,5 +69,11 @@ public final class Constants {
 
         // Climber
         public static final int CLIMBER_MOTOR = 50;
+
+        // Alg
+        public static final int PIVOT_MOTOR = 30;
+        public static final int ALG_MOTOR = 51;
+        public static final int ALG_PHOTOEYE = 1;
+        public static final int ALG_ENCODER = 52;
     }
 }
